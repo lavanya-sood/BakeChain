@@ -1,0 +1,114 @@
+.home {
+  position: absolute;
+  top: 5%;
+  transform: translateY(-50%);
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.home-button {
+  width: 200px;
+  height: 200px;
+}
+
+.home-row {
+  display: flex;
+}
+
+.home-button-title {
+  margin: 0;
+}
+
+@media only screen and (max-width: 800px) {
+  .home-row {
+    flex-direction: column;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header-Logo {
+  width: 100px;
+}
+
+.headingClass {
+  width: 300px;
+}
+
+.button-Link {
+  margin: 10px;
+}
+
+
+.view-batches-row {
+  display: flex;
+}
+
+.view-batches-content {
+  padding-top: 10px;
+  padding-left: 40px;
+}
+
+.view-batch-padding {
+  margin-bottom: 10px;
+}
+
+.add-products-flex {
+  display: flex;
+}
+
+.center-form {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.add-products-title {
+  margin-top: 50px !important;
+}
+
+.add-products-ing {
+  color: #868581 !important;
+  margin-top: 32px !important;
+  margin-left: 30px !important;
+}
+
+.products-ing-list {
+  text-align: left;
+}
+
+.list-ing {
+  display: flex;
+  flex-direction: column;
+}
+
+.error-ing {
+  color: #F44336;
+  font-size: 13px;
+  margin-left: 30px;
+  margin-top: 0;
+}
+
+.view-products-root {
+  display: flex;
+}
+
+.view-products-ing {
+  color: #868581 !important;
+  padding-top: 10px !important;
+}
+
+.label-style {
+  display: flex !important;
+  align-items: center;
+  width: 200px;
+}
+
+.label-text {
+  padding-left: 10px;
+}
